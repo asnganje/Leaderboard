@@ -1,4 +1,4 @@
-import id from './gameId.js';
+import id from './gameIdentity.js';
 
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
 
