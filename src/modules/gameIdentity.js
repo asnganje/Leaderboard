@@ -1,7 +1,7 @@
 fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
   method: 'POST',
   body: JSON.stringify({
-    name: 'Chess',
+    name: 'Soccer',
   }),
   headers: {
     'content-type': 'application/json; charset=UTF-8',
@@ -11,6 +11,6 @@ fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
   .then((data) => data);
 // Store ID
 
-const id = 'YTuDTJxi9F99uEyeQbau';
+const id = 'TjL12SyiRBlaUknzluNW';
 
 export default id;
